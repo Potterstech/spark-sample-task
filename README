@@ -2,11 +2,11 @@
 
 This repository contains a take-home exercise focused on analyzing ride data using SQL, Pandas, and geospatial queries in Databricks. The task involves data cleaning, exploration, and deriving insights from a dataset of 1000 rides.
 
-## 📝 Task Overview
+## Task Overview
 
 You are given a dataset of rides with pickup and drop-off locations, timestamps, and fare amounts. Your objective is to perform data cleaning, run geospatial queries, and derive meaningful insights.
 
-## 📂 Dataset
+## Dataset
 - **File**: `data/rides.csv`
 - **Columns**:
   - `ride_id`: Unique identifier for each ride
@@ -15,7 +15,7 @@ You are given a dataset of rides with pickup and drop-off locations, timestamps,
   - `ride_timestamp`: Date and time of the ride
   - `fare_amount`: Fare charged for the ride (can contain negative, zero, or null values)
 
-## 🚦 Tasks
+## Tasks
 
 Each task should be performed in a separate cell.
 
@@ -42,12 +42,12 @@ Each task should be performed in a separate cell.
    - Example:
      - Example Row: `ride_id: 4, pickup_lat: 12.9352, pickup_lon: 77.6245, dropoff_lat: 12.9352, dropoff_lon: 77.6245, ride_timestamp: '2025-03-24 17:00:00', fare_amount: 300.0`
 
-## 💡 Submission Guidelines
+## Submission Guidelines
 - Provide a Jupyter Notebook or Databricks notebook with your code and explanations.
 - Include visualizations if possible.
 - Share key insights and observations at the end.
 
-## ✅ Evaluation Criteria
+## Evaluation Criteria
 - Data cleaning and handling of edge cases.
 - Correctness of geospatial queries.
 - Quality of analysis and insights.
